@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <title>{TAG_14226_TAG}</title>
     <!-- 页面的元信息 -->
+    <title>{TAG_14226_TAG}</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
     <meta name="format-detection" content="telephone=no, email=no"/>
@@ -29,68 +29,13 @@
   </head>
   <body>
     <div class="scale-box">
-    <!-- 页面[loading]-->
-    <div class="loading-box page" template="loading" style="display: none;"><img class="loading" src="https://cunchu.site/ozzx/resource/loadingLogo.png"><div class="loading-bar"><div class="num-bar"></div></div><span class="text">Loading</span><div class="num">0%</div></div></div>
-    <!-- 插件[page1]-->
-    <div class="page-1 owo-block" template="page1" style="display: none;"></div>
+    <!-- 页面[page1]-->
+    <div class="page-1 page" template="page1" style="display: block;"><div class="title-box"><img class="logo" src="./static/resource/logo.png"><h1>标题标题标题标题</h1><h2>标题标题标题标题标题标题标题标题</h2></div><div class="editer"><img class="editer-title" src="./static/resource/editer-bg.png"><p>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字。</p></div><div class="image-box box"><div class="title-bar">标题标题</div><div class="image-item"></div></div></div></div>
     
 
     <script src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript"  charset="UTF-8"></script>
     <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script>
-    <script src="https://cunchu.site/owo/plug/autoScale.js" type="text/javascript"  charset="UTF-8"></script>
-    <!-- 框架script文件 -->
-    <script src="./static/js/owo.core.js" type="text/javascript" charset="UTF-8"></script>
-<script>
-owo.script = {
-  "loading": {
-    "data": {
-      "imgList": [""]
-    },
-    "show": function show() {
-      var mum = owo.query('.num')[0];
-      var numBar = owo.query('.num-bar')[0];
-      this.preloadImages(this.data.imgList, function (e) {
-        setTimeout(function () {// owo.go({noBack: true,page: "page1"})
-        }, 500);
-      }, function (num) {
-        numBar.style.width = num + '%';
-        mum.innerHTML = num + '%';
-      });
-    },
-    "preloadImage": function preloadImage(src, successFn) {
-      var image = new Image();
-      image.src = src;
+    <script src="./static/js/autoScale.js" type="text/javascript"  charset="UTF-8"></script>
 
-      image.onload = function () {
-        successFn && successFn(src);
-      };
-
-      image.onerror = function (error) {
-        successFn && successFn(src);
-      };
-    },
-    "preloadImages": function preloadImages(srcs, doneFn, progressFn) {
-      var _this = this;
-
-      if (!Array.isArray(srcs)) {
-        console.log('第一个参数只能是一个数组');
-      } else {
-        var allCount = srcs.length;
-        var doneCount = 0;
-        srcs.forEach(function (srcItem) {
-          _this.preloadImage(srcItem, function () {
-            doneCount++;
-            progressFn && progressFn(Math.ceil(100 * doneCount / allCount));
-
-            if (doneCount === allCount) {
-              doneFn && doneFn();
-            }
-          });
-        });
-      }
-    }
-  },
-  "page1": {}
-};</script>
   </body>
 </html>

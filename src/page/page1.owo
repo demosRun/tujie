@@ -1,6 +1,17 @@
 <template lang="pug">
 .page-1
-  
+  .title-box
+    img.logo(src="@|logo.png|")
+    h1 标题标题标题标题
+    h2 标题标题标题标题标题标题标题标题
+  //- 编者按 块
+  .editer
+    img.editer-title(src="@|editer-bg.png|")
+    p 文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字。
+
+  .image-box.box
+    .title-bar 标题标题
+    .image-item
 </template>
 
 <script>
@@ -13,5 +24,68 @@
 
 
 <style lang="less">
-
+.page-1 {
+  background-image: url('@|bg.jpg|');
+  background-repeat: no-repeat;
+  background-color: #123b8b;
+}
+.logo {
+  position: absolute;
+  top: 80px;
+  right: 45px;
+}
+.title-box {
+  padding-top: 200px;
+  padding-bottom: 80px;
+  h1 {
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 66px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 53px;
+    line-height: 70px;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.editer {
+  background-color: white;
+  width: 705px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 10px 0;
+  .editer-title {
+    display: block;
+    margin: 30px auto;
+  }
+  p {
+    font-size: 28px;
+    line-height: 1.6;
+    width: 660px;
+    display: block;
+    margin: 0 auto;
+    color: #003f8c;
+    margin-bottom: 20px;
+  }
+}
+.image-box {
+  .title-bar {
+    background-image: url('@|title-bg.png|');
+    width: 509px;
+    height: 108px;
+    font-size: 40px;
+    line-height: 97px;
+    padding-left: 30px;
+    color: #0270e9;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+  }
+}
+.box {
+  margin-top: 50px;
+}
 </style>

@@ -1,17 +1,20 @@
 body, html, .page, .page-box {
   padding: 0;
   margin: 0;
-}
-
-.router-item[route-active="false"] {
-  display: none;
+  width: 100%;
+  min-height: 100%;
 }
 
 .owo-animation {
   overflow: hidden;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 .owo-animated {
@@ -26,6 +29,10 @@ body, html, .page, .page-box {
 
 img {
   border: none;
+}
+
+[route-active="false"] {
+  display: none;
 }
 
 /* 清除浮动 */
@@ -48,59 +55,75 @@ li {
   list-style: none;
 }
 
-.loading-box {
-  width: 100%;
-  height: 100%;
-  background-image: url('https://cunchu.site/ozzx/resource/lanse.jpg');
+.page-1 {
+  background-image: url('../resource/bg.jpg');
+  background-repeat: no-repeat;
+  background-color: #123b8b;
 }
 
-.loading-box .loading {
+.logo {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: -16%;
-  bottom: 0;
-  margin: auto;
+  top: 80px;
+  right: 45px;
 }
 
-.loading-box .loading-bar {
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  height: 14px;
-  background-color: white;
-  width: 80%;
-  margin: auto;
-  left: 0;
-  right: 0;
-  border-radius: 15px;
-  padding: 10px;
+.title-box {
+  padding-top: 200px;
+  padding-bottom: 80px;
 }
 
-.loading-box .num-bar {
-  background-color: #58b3dd;
-  height: 14px;
-  border-radius: 7px;
-  width: 0%;
-}
-
-.loading-box .num,
-.loading-box .text {
-  position: absolute;
-  top: 0%;
-  bottom: -8%;
-  margin: auto;
-  line-height: 50px;
-  height: 50px;
-  font-size: 36px;
-  width: 100%;
-  text-align: center;
+.title-box h1 {
   color: white;
+  line-height: 100px;
+  text-align: center;
+  font-size: 66px;
+  margin-bottom: 20px;
+}
+
+.title-box h2 {
+  font-size: 53px;
+  line-height: 70px;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.editer {
+  background-color: white;
+  width: 705px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+.editer .editer-title {
+  display: block;
+  margin: 30px auto;
+}
+
+.editer p {
+  font-size: 28px;
+  line-height: 1.6;
+  width: 660px;
+  display: block;
+  margin: 0 auto;
+  color: #003f8c;
+  margin-bottom: 20px;
+}
+
+.image-box .title-bar {
+  background-image: url('../resource/title-bg.png');
+  width: 509px;
+  height: 108px;
+  font-size: 40px;
+  line-height: 97px;
+  padding-left: 30px;
+  color: #0270e9;
   font-weight: bold;
+  font-family: "Microsoft YaHei";
 }
 
-.loading-box .text {
-  bottom: -14%;
+.box {
+  margin-top: 50px;
 }
-
 
