@@ -8,7 +8,9 @@ var autoScaleInfo = {
   // 设计高度PC
   devisePCH: 1080,
   // 缩放中心 目前只支持 middle 和 top
-  center: 'top'
+  center: 'top',
+  // 是否是Y轴滚动模式
+  scroll: true
 }
 
 function getScale () {
@@ -25,9 +27,14 @@ function getScale () {
       var scale = autoScaleInfo.innerWidth / autoScaleInfo.deviseW
       autoScaleInfo.scale = scale
       scaleBox.style.width = autoScaleInfo.deviseW + 'px'
-      scaleBox.style.height = autoScaleInfo.deviseH + 'px'
+      if (autoScaleInfo.scroll) {
+        scaleBox.style.height = autoScaleInfo.innerHeight / autoScaleInfo.scale + 'px'
+        scaleBox.style.overflow = 'auto'
+      } else {
+        scaleBox.style.height = autoScaleInfo.deviseH + 'px'
+      }
+      
       autoScaleInfo.hideHeight = (autoScaleInfo.innerHeight - autoScaleInfo.deviseH * scale) / 2 /scale
-      console.log('ssssssssssssssssss')
       // 判断缩放中心
       if (autoScaleInfo.center === 'middle') {
         scaleBox.style.transform = 'scale(' + scale + ', ' + scale + ') translate(0, ' + autoScaleInfo.hideHeight + 'px)';
@@ -46,6 +53,9 @@ function getScale () {
       scaleBox.style.overflow = 'hidden'
       scaleBox.style.transform = 'scale(' + scale + ', ' + scale + ') translate(' + (autoScaleInfo.innerWidth - autoScaleInfo.deviseW * scale) / 2 / scale + 'px, 0)'
       scaleBox.style.transformOrigin = '0 0 0'
+      if (autoScaleInfo.scroll) {
+        scaleBox.style.overflow = 'auto'
+      }
     }
   }
   // 只对宽屏生效

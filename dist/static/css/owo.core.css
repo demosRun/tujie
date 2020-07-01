@@ -111,7 +111,13 @@ li {
   margin-bottom: 20px;
 }
 
-.image-box .title-bar {
+.image-card {
+  background-image: url('../resource/keji.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.image-card .title-bar {
   background-image: url('../resource/title-bg.png');
   width: 509px;
   height: 108px;
@@ -120,10 +126,156 @@ li {
   padding-left: 30px;
   color: #0270e9;
   font-weight: bold;
+  letter-spacing: 4px;
   font-family: "Microsoft YaHei";
 }
 
 .box {
   margin-top: 50px;
+}
+
+.image-item {
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  background-image: url('../resource/card-bg.jpg');
+}
+
+.image-item img {
+  width: 100%;
+}
+
+.image-item .image img {
+  display: block;
+}
+
+.image-item .image .info {
+  background-image: url('../resource/doit.png');
+  font-size: 26px;
+  line-height: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  overflow: hidden;
+  padding-left: 35px;
+  width: 88%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.image-item h3 {
+  font-size: 36px;
+  line-height: 1.5;
+  color: #025bc6;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.image-item p {
+  font-size: 36px;
+  line-height: 1.5;
+  color: #1c1c1c;
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.line {
+  background-image: url('../resource/line.png');
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-card .title-bar {
+  background-image: url('../resource/title-box-bg.png');
+  background-repeat: no-repeat;
+  line-height: 100px;
+  height: 100px;
+  overflow: hidden;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  color: white;
+  letter-spacing: 6px;
+  padding-left: 28px;
+  width: 617px;
+  margin-left: 3%;
+}
+
+.text-card .image-item {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.text-card p {
+  font-size: 26px;
+  font-family: "Microsoft YaHei";
+}
+
+.text-card .line {
+  background-image: url('../resource/line-2.png');
+}
+
+.paragraph-card {
+  background-image: url('../resource/p-bg.png');
+  background-repeat: no-repeat;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 8px;
+}
+
+.paragraph-card p {
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 590px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+  font-size: 28px;
+  line-height: 1.6;
+  padding: 4%;
+  color: #025bc6;
+  margin-bottom: -1px;
+}
+
+.paragraph-card img {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  margin-top: -1px;
+}
+
+.bottom-bar {
+  background-repeat: no-repeat;
+  background-size: 101% 100%;
+  position: relative;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.bottom-bar img {
+  width: 101%;
+  height: auto;
+  display: block;
+}
+
+.bottom-bar p {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  position: absolute;
+  left: 45%;
+  height: 120px;
+  overflow: hidden;
+  line-height: 36px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 

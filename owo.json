@@ -78,11 +78,6 @@
 			"src": "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
 		},
 		{
-			"name": "main",
-			"src": "./src/main.js",
-			"resource": true
-		},
-		{
 			"name": "autoScale",
 			"src": "./src/resource/autoScale.js"
 		}

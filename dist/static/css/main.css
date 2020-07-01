@@ -50,3 +50,74 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   visibility: hidden;
   clear: both;
 }
+.editer-title {
+  width: 576px;
+  height: 48px;
+  background-image: url('../resource/editer-bg.png');
+}
+.bottom-bar {
+  width: 750px;
+  height: 211px;
+  background-image: url('../resource/bottom-bar.png');
+}
+.paragraph-card .bg {
+  width: 646px;
+  height: 32px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: 100% auto;
+  background-image: url('../resource/juchi.png');
+}
+
+.yellow .editer-title {
+  background-image: url('../resource/editer-bg-yellow.png');
+}
+
+.yellow .page-1 {
+  background-color: #f8f0e6;
+}
+
+.yellow .image-card .title-bar {
+  color: #7f3c03;
+  background-image: url('../resource/title-bg-yellow.png');
+}
+
+.yellow .title-box h1, .yellow .title-box h2 {
+  color: #7f3c03;
+}
+
+.yellow .image-item h3 {
+  color: #7f3c03;
+}
+
+.yellow .text-card .title-bar {
+  background-image: url(../resource/title-box-bg-yellow.png);
+}
+
+.yellow .paragraph-card {
+  background-image: url(../resource/p-bg-yellow.png);
+  color: #7f3c03;
+}
+
+.yellow .paragraph-card .bg {
+  background-image: url('../resource/juchi-yellow.png');
+}
+.yellow .bottom-bar {
+  background-image: url('../resource/bottom-bar-yellow.png');
+}
+
+.yellow .line {
+  background-image: url('../resource/line-yellow.png');
+}
+
+.yellow .text-card .line {
+  background-image: url('../resource/line-2-yellow.png');
+}
+
+.yellow .page-1 {
+  background-image: url('../resource/bg-yellow.jpg');
+}
+
+.yellow .editer p, .yellow .paragraph-card p {
+  color: #7f3c03;
+}

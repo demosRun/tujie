@@ -7,11 +7,67 @@
   //- 编者按 块
   .editer
     img.editer-title(src="@|editer-bg.png|")
-    p 文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字。
-
-  .image-box.box
+    p &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字。
+  //- 图文卡片
+  .image-card.box
     .title-bar 标题标题
     .image-item
+      .image
+        img(src="http://www.people.com.cn/NMediaFile/2020/0630/MAIN202006300921567050537743662.jpg")
+        .info 说明：文字文字字字文字文字文字文字文字文字文字文字文字文
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      .line
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+  //- 文字卡片
+  .text-card.box
+    .title-bar 标题标题标题
+    .image-item
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;————文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      .line
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;————文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      .line
+  //- 文字卡片
+  .text-card.box
+    .title-bar 标题标题标题
+    .image-item
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;————文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      .line
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;————文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      .line
+  //- 文字卡片
+  .text-card.box
+    .title-bar 标题标题标题
+    .image-item
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;————文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      .line
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。
+      h3 &emsp;&emsp;文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      p &emsp;&emsp;————文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文字文字文字文字文字文字。
+      .line
+  
+  //- 段落卡片
+  .paragraph-card.box
+    p 文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文 。文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文。文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字字文字文字文字文。
+    img(src="@|juchi.png|")
+  
+  .bottom-bar
+    //- 背景图
+    .bg
+    p 资料来源：人民网<br>编辑：宋子节<br>设计：趣动全媒体工作室 方红
 </template>
 
 <script>
@@ -72,7 +128,10 @@
     margin-bottom: 20px;
   }
 }
-.image-box {
+.image-card {
+  background-image: url('@|keji.png|');
+  background-position: right top;
+  background-repeat: no-repeat;
   .title-bar {
     background-image: url('@|title-bg.png|');
     width: 509px;
@@ -82,10 +141,141 @@
     padding-left: 30px;
     color: #0270e9;
     font-weight: bold;
+    letter-spacing: 4px;
     font-family: "Microsoft YaHei";
   }
 }
 .box {
   margin-top: 50px;
+}
+.image-item {
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  background-image: url('@|card-bg.jpg|');
+  img {
+    width: 100%;
+  }
+  .image {
+    img {
+      display: block;
+    }
+    .info {
+      background-image: url('@|doit.png|');
+      font-size: 26px;
+      line-height: 60px;
+      height: 60px;
+      background-repeat: no-repeat;
+      background-position: 10px center;
+      overflow: hidden;
+      padding-left: 35px;
+      width: 88%;
+      margin: 0 auto;
+    }
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 1.5;
+    color: #025bc6;
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 36px;
+    line-height: 1.5;
+    color: #1c1c1c;
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+.line {
+  background-image: url('@|line.png|');
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-card {
+  .title-bar {
+    background-image: url('@|title-box-bg.png|');
+    background-repeat: no-repeat;
+    line-height: 100px;
+    height: 100px;
+    overflow: hidden;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    color: white;
+    letter-spacing: 6px;
+    padding-left: 28px;
+    width: 617px;
+    margin-left: 3%;
+  }
+  .image-item {
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  p {
+    font-size: 26px;
+    font-family: "Microsoft YaHei";
+  }
+  .line {
+    background-image: url('@|line-2.png|');
+  }
+}
+.paragraph-card {
+  background-image: url('@|p-bg.png|');
+  background-repeat: no-repeat;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 8px;
+  p {
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 86%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 28px;
+    line-height: 1.6;
+    padding: 4%;
+    color: #025bc6;
+  }
+  img {
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+    margin-top: -1px;
+  }
+}
+.bottom-bar {
+  background-repeat: no-repeat;
+  background-size: 101% 100%;
+  position: relative;
+  margin-top: 50px;
+  overflow: hidden;
+  img {
+    width: 101%;
+    height: auto;
+    display: block;
+  }
+  p {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    position: absolute;
+    left: 44%;
+    height: 120px;
+    overflow: hidden;
+    line-height: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
 }
 </style>
